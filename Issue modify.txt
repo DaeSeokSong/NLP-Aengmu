@@ -1,6 +1,12 @@
 1. loss: 0.0000e+00 → choice about loss function have to again.
+
 2. Approximate value loss: 1.0000 → Normalization is needed
+
 3. When the graph about loss is parallel to the X-axis 
 → 3-1) last Dense layer's activation function delete or change another
 → 3-2) last Dense layer output just 1 result up to result count
 → 3-3) enough up to batch_size and learning rate
+
+4. When the result about model's prediction is always same
+→ 4-1) batch size down, epoch up (don't too much)
+→ 4-2) optimizer change to another
