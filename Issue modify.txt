@@ -8,5 +8,7 @@
 → 3-3) enough up to batch_size and learning rate
 
 4. When the result about model's prediction is always same
-→ 4-1) batch size down, epoch up (don't too much)
-→ 4-2) optimizer change to another
+→ 4-1) Input layer's activation delete
+→ 4-2) Layer count down
+→ 4-3) batch size down, epoch up (don't too much)
+→ 4-4) optimizer change to another
